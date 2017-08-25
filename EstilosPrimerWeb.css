@@ -1,0 +1,51 @@
+body{
+    margin-top:0;
+    margin-right:0;
+    margin-left:0;
+    background-color:#E6E6E6
+}
+
+#barra2{
+    background-image:url(http://i.imgur.com/kSryZ.png);
+    padding:20px;
+}
+
+#listaa{
+    list-style : none;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.lista1{
+    display:inline;
+    margin: 0 50px 0 0;
+}
+
+.linkk{
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #2E2E2E;
+    text-decoration: none;
+    font-size:30px;
+}
+
+#barra3{
+    background-image:url(http://www.webfvea.com/wp-content/uploads/2016/10/Marketing-digital.jpg);
+    background-size: cover;
+    margin-bottom:25px;
+    text-align:left;
+    padding:100px;
+}
+.textbarra{
+    color: #151515;
+    font-size:25px;
+    font-family:arial;
+    padding-right:600px;
+}
+.textbarra strong{
+    color:#2E2E2E;
+    font-size:100px;
+    font-family:arial;
+}
+
