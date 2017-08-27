@@ -1,4 +1,4 @@
-body{
+/*body{
     margin-top:0;
     margin-right:0;
     margin-left:0;
@@ -49,3 +49,51 @@ body{
     font-family:arial;
 }
 
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                     <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#Home">HOME</a></li>
+                        <li><a href="#Services">SERVICES</a></li> 
+                        <li><a href="#AboutUs">ABOUT US</a></li> 
+                        <li><a href="#Contact">CONTACT</a></li>
+                    </ul>
+                
+            </div>          
+        </nav>
+*/
+
+body {
+  padding-top: 50px;
+}
+
+#title-enroll .jumbotron{
+    background-image: url(http://www.webfvea.com/wp-content/uploads/2016/10/Marketing-digital.jpg);
+    background-size: cover;
+    background-position: 40% 25%;
+    text-align: top center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color:black;
+    height: 400px;
+}
+
+.container-fluid .jumbotron{
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+}
+
+.row .col-md-4{
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
