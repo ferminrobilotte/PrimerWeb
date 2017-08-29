@@ -1,75 +1,13 @@
-/*body{
-    margin-top:0;
-    margin-right:0;
-    margin-left:0;
-    background-color:#E6E6E6
-}
-
-#barra2{
-    background-image:url(http://i.imgur.com/kSryZ.png);
-    padding:20px;
-}
-
-#listaa{
-    list-style : none;
-    text-align:center;
-    margin-bottom:20px;
-}
-
-.lista1{
-    display:inline;
-    margin: 0 50px 0 0;
-}
-
-.linkk{
-    padding: 2px 7px 2px 7px;
-    color: #666;
-    background-color: #eeeeee;
-    border: 1px solid #2E2E2E;
-    text-decoration: none;
-    font-size:30px;
-}
-
-#barra3{
-    background-image:url(http://www.webfvea.com/wp-content/uploads/2016/10/Marketing-digital.jpg);
-    background-size: cover;
-    margin-bottom:25px;
-    text-align:left;
-    padding:100px;
-}
-.textbarra{
-    color: #151515;
-    font-size:25px;
-    font-family:arial;
-    padding-right:600px;
-}
-.textbarra strong{
-    color:#2E2E2E;
-    font-size:100px;
-    font-family:arial;
-}
-
-
-
-
-<nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                     <a class="navbar-brand" href="#">WebSiteName</a>
-                </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#Home">HOME</a></li>
-                        <li><a href="#Services">SERVICES</a></li> 
-                        <li><a href="#AboutUs">ABOUT US</a></li> 
-                        <li><a href="#Contact">CONTACT</a></li>
-                    </ul>
-                
-            </div>          
-        </nav>
-*/
-
 body {
   padding-top: 50px;
+}
+
+h1{
+    font-family: 'Graduate', cursive;
+}
+
+p, h4, h2{
+    font-family: 'Roboto Slab', serif;
 }
 
 #title-enroll .jumbotron{
@@ -83,17 +21,75 @@ body {
     height: 400px;
 }
 
-.container-fluid .jumbotron{
+#services .jumbotron{
     text-align: center;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    background-color: #F7F9F9  !important;
+}
 
+
+.col-md-4 h3{
+    font-family: 'Pacifico', cursive;
 }
 
 .row .col-md-4{
     text-align: center;
+    padding: 40px;
 }
 
 li {
     list-style: none;
+}
+
+#aboutus .container{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    background-color: #F7F9F9  ;
+}
+
+#aboutus p{
+    font-size: 20px;
+}
+
+.container .col-md-6 img{
+     width: 100%;
+}
+
+#contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contact .container{
+    padding: 40px;
+    background-color: #F7F9F9;
+    width: 100%;
+}
+
+.textocontact{
+    text-align: center;
+}
+
+.formulario{
+    background-color: #ecf0f3;
+    padding: 26px;
+}
+
+.formulario .jumbotron{
+    background-color:transparent !important;
+}
+
+.jumbotron h2{
+    text-align: center;
+}
+
+label, input[type="submit"] {
+    margin-top: 6px;
+}
+
+footer .container{
+    background-color: #BDBDBD;
+    width: 100%;
 }
